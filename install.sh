@@ -1,5 +1,7 @@
 #!/bin/bash
 
+code --uninstall-extension twxs.cmake
+
 code --install-extension github.codespaces
 code --install-extension golang.go
 code --install-extension ms-azuretools.vscode-docker
@@ -31,7 +33,6 @@ code --install-extension redhat.java
 code --install-extension redhat.vscode-commons
 code --install-extension redhat.vscode-xml
 code --install-extension redhat.vscode-yaml
-code --install-extension twxs.cmake
 code --install-extension vscjava.vscode-java-debug
 code --install-extension vscjava.vscode-java-dependency
 code --install-extension vscjava.vscode-java-pack
