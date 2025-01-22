@@ -1,7 +1,5 @@
 #!/bin/bash
 
-code --uninstall-extension twxs.cmake
-
 code --install-extension github.codespaces
 code --install-extension golang.go
 code --install-extension ms-azuretools.vscode-docker
